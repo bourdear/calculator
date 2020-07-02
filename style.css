@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #FBFBF2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.calcContainer {
+    background-color: #CFD2CD;
+    width: 400px;
+    height: 550px;
+    margin-top: 140px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.575);
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.calculator-screen {
+    background-color: #E5E6E4;
+    display: table;
+    margin: 50px;
+    margin-bottom: 10px;
+    width: 310px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: black;
+    text-align: right;
+}
+
+.all-clear {
+    background-color: #A6A2A2;
+    width: 100px;
+    height: 35px;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: table;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 100;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+
+}
+
+#solution {
+    text-align: right;
+
+}
+
+
+#row1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.first {
+    margin: 12px;
+    margin-top: -5px;
+    background-color: #A6A2A2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: table;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+    font-size: 40px;
+}
+
+#row2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.second {
+    display: table;
+    justify-content: center;
+    margin: 12px;
+    margin-top: -10px;
+    background-color: #A6A2A2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+    font-size: 40px;
+}
+#row3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.third {
+    display: table;
+    margin: 12px;
+    margin-top: -10px;
+    background-color: #A6A2A2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+    font-size: 40px;
+}
+
+#row4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.fourth {
+    display: table;
+    margin: 12px;
+    margin-top: -10px;
+    background-color: #A6A2A2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+    font-size: 40px;
+}
+
+
+button {
+    display: table-cell;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+ .all-clear:hover, .first:hover, .second:hover, .third:hover, .fourth:hover {
+    background-color: #847577;
+    cursor: pointer;
+    transition-delay: 4ms;
+}
+
+button:focus {
+    border: 2px dotted;
+    outline: none;
+  
+}
